@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  color: white;
+}
+
+.logo img {
+  width: 120px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: black;
+}
+
+.mid-nav {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  background: black;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.mid-nav a {
+  color: white;
+}
+
+.mid-nav a:hover {
+  color: rgb(43, 255, 0);
+  transition: 0.9s;
+}
+
+body {
+  background: black;
+}
+
+.left-nav {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-nav a,
+a1 {
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.a1:hover {
+  color: rgb(43, 255, 0);
+  transition: 0.9s;
+  background: black;
+}
+
+.a:hover {
+  color: rgb(43, 255, 0);
+  transition: 0.9s;
+  background: black;
+}
+
+.video {
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+main {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.anime-video {
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgb(0 0 0 / 100%),
+    rgb(255 0 0 / 100%),
+    rgb(0 0 0 / 100%)
+  );
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 30px;
+  width: fit-content;
+  margin-top: 30px;
+  margin-left: 450px;
+  padding: 40px;
+  padding-left: 150px;
+  border-radius: 20px;
+}
+
+.anime-video img {
+  width: 10px;
+  height: 200px;
+  width: fit-content;
+  border-radius: 200px;
+  position: absolute;
+  margin-left: -180px;
+}

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  color: white;
+}
+
+.divv img {
+  width: 120px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.divv {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.divv a {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: black;
+}
+
+.divv1 {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  background: black;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.divv1 a {
+  color: white;
+}
+
+.divv1 :hover {
+  color: rgb(255, 0, 0);
+  transition: 0.9s;
+}
+
+body {
+  background: black;
+}
+
+.divv2 {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.divv2 a {
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.a:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.9s;
+  background: black;
+}
+
+.a1:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.9s;
+  background: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log {
+  background: rgb(130, 130, 130);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 20px;
+}
+
+.log input {
+  width: 250px;
+}
+
+.log input:hover {
+  background: black;
+  color: rgb(255, 0, 0);
+  transition: 0.9s;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 2px solid white;
+}
